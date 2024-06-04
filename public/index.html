@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Task Tracker</h1>
+    </header>
+    <main>
+        <section id="user-section">
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="save-tasks-btn" class="styled-button">Save Tasks</button>
+            <button id="load-tasks-btn" class="styled-button">Load Tasks</button>
+        </section>
+        <section id="task-list">
+            <h2>Tasks</h2>
+            <ul>
+                <!-- Tasks will be added here -->
+            </ul>
+        </section>
+        <section id="new-task">
+            <h3>New Task</h3>
+            <input type="text" id="task-input" placeholder="Enter a new task">
+            <button id="add-task-btn" class="styled-button">Add Task</button>
+            <button id="clear-tasks-btn" class="styled-button">Clear Tasks</button>
+            <button id="delete-task-btn" class="styled-button">Delete Selected Task</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
